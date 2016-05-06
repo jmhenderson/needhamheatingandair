@@ -21,11 +21,11 @@
   <body>
     <div id="page">
       <header id="header" class="site-header">
-        <nav id="topbar" class="site-topbar visible-lg visible-md">
+        <nav id="topbar" class="site-topbar">
           <div class="container">
             <div class="row">
                 <div class="col-sm-6"> <a href="tel:+1-302-430-2747">Call for a FREE Estimate - (302) 430-2747</a></div>
-              <div class="social-links col-sm-6">
+              <div class="social-links col-sm-6 hidden-sm hidden-xs">
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-twitter"></i></a>
                 <a href="#"><i class="fa fa-google-plus"></i></a>
@@ -62,7 +62,7 @@
         <section id="carousel-1" class="carousel slide section-slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="item active" style="background: url(images/beaches02.jpg);">
-              <div class="container"><img src="images/header2.png" alt="First slide"></div>
+              <div class="container headerIMG"><img src="images/header2.png" alt="First slide"></div>
             </div>
             <!--<div class="item" style="background: url(images/bg-2.jpg);">
               <div class="container"><img src="http://placehold.it/640x340" alt="Second slide"></div>
@@ -93,19 +93,19 @@
             <h2 class="section-title"><span>About Our Company</span></h2>
             <div class="row">
 
-              <div class="col-md-4 col-sm-6">
+              <div class="col-md-4 col-xs-12">
                 <div class="icon-wrap"><img src="images/calendars.svg" alt=""></div>
                 <h4>Over A Decade of Experience</h4>
                 <p>We have been providing top quality serivce and installations to the Lower Delaware region for well over a Decade.</p>
               </div>
 
-              <div class="col-md-4 col-sm-6">
+              <div class="col-md-4 col-xs-12">
                 <div class="icon-wrap"><img src="images/buildings.svg" alt=""></div>
                 <h4>Heating and Cooling</h4>
                 <p>We do brand new installations, repairs, and regular maintenance on all types of heating and cooling equipment for resonable prices and with quick turn-a-arounds.</p>
               </div>
 
-              <div class="col-md-4 col-sm-6">
+              <div class="col-md-4 col-xs-12">
                 <div class="icon-wrap"><img src="images/people.svg" alt=""></div>
                 <h4>Family-Owned Business</h4>
                 <p>Needham Heating &amp; Air is a family-owned business that treats our customers like family, too  </p>
@@ -114,37 +114,95 @@
               
 
             </div>
+             <div class="container">
+                <h2 class="section-title"><span>Regions We Serve</span></h2>
+                      <p>We serve the entire Lower Delaware region. If your location is not listed please call us and will confirm whether we serve your area or we can direct you towards a trustworthy professional who does.
+                
+                    
+    <div class="row">
+    <div class="col-xs-6 col-sm-4 col-md-2">
+        <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+            <img src="images/regions_suss_co_800px.png" alt="...">
+        </a>
+        <h4>Sussex County</h4>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-2">
+        <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+            <img src="images/regions_gtown_800px.png" alt="...">
+        </a>
+        <h4>Georgetown</h4>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-2">
+        <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+            <img src="images/regions_lewes_800px.png" alt="...">
+        </a><h4>Lewes</h4>
+    </div>
+    
+    <div class="col-xs-6 col-sm-4 col-md-2">
+        <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+            <img src="images/regions_milton_800px.png" alt="...">
+        </a><h4>Milton</h4>
+    </div>
+    
+    <div class="col-xs-6 col-sm-4 col-md-2">
+        <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+            <img src="images/regions_reho_bea_800px.png" alt="...">
+        </a><h4>Rehoboth</h4>
+    </div>
+    
+    <div class="col-xs-6 col-sm-4 col-md-2">
+        <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+            <img src="images/regions_suss_co_800px.png" alt="...">
+        </a><h4>Add One</h4>
+        </div>
+</div>
+
+<div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <button type="button" class="close hidden" data-dismiss="modal" aria-hidden="true">×</button>
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="" alt="" /><h4></h4>
+            </div>
+        </div>
+    </div>
+</div>
+                                   
+               
+            </div>
           </div>
+          
         </section>
 
+       <!--moving tiles section-->
         <section id="portfolio" class="section section-portfolio">
           <div class="container">
             <h2 class="section-title"><span>What We Do</span></h2><h4>We can maintain, repair or install almost any system.</h4>
             <ul id="filters">
               <li><a href="#" data-filter="*">All</a></li>
               <li>/</li>
-              <li><a href="#" data-filter=".heating">Heat Pumps</a></li>
+              <li><a href="#" data-filter=".heating">Cooling</a></li>
               <li>/</li>
-              <li><a href="#" data-filter=".cooling">Gas Heating</a></li>
+              <li><a href="#" data-filter=".cooling">Heating</a></li>
               <li>/</li>
-              <li><a href="#" data-filter=".installs">Air Conditioning</a></li>
+              <li><a href="#" data-filter=".installs">Geothermal</a></li>
               <li>/</li>
               <li><a href="#" data-filter=".repairs">Hot Water Heaters</a></li>
               <li>/</li>
-              <li><a href="#" data-filter=".maintenance">Geothermal Systems</a></li>
+              <li><a href="#" data-filter=".maintenance">Service Calls</a></li>
             </ul>
 
             <div class="portfolio-isotope row">
-              <article class="col-md-3 col-sm-6 portfolio-item maintenance installs heating">
+              <!--<article class="col-md-3 col-sm-6 portfolio-item maintenance installs heating">
                 <div class="entry-thumbnail">
                   <a href="#" class="hover-effect" data-toggle="modal" data-target="#regions">
                     <img src="images/needham_region_400px.png" alt="" />
                     <span class="overlay"><i class="fa fa-plus"></i></span><h3>Regions We Serve</h3>
                   </a>
                 </div>
-              </article>
+              </article>REMOVED and ADDED In Above Section-->
               
-              <article class="col-md-3 col-sm-6 portfolio-item maintenance installs heating cooling">
+              <article class="col-md-3 col-sm-6 col-xs-12 portfolio-item maintenance installs heating cooling">
                 <div class="entry-thumbnail">
                   <a href="#" class="hover-effect" data-toggle="modal" data-target="#regions">
                     <img src="images/needham_region_400px.png" alt="" />
@@ -153,59 +211,59 @@
                 </div>
               </article>  
               
-              <article class="col-md-3 col-sm-6 portfolio-item repairs cooling">
+              <article class="col-md-3 col-sm-6 col-xs-12 portfolio-item repairs cooling">
                 <div class="entry-thumbnail">
                   <a href="#" class="hover-effect" data-toggle="modal" data-target="#project-modal">
                     <img src="http://placehold.it/400x300" alt="" />
-                    <span class="overlay"><i class="fa fa-plus"></i></span>
+                      <span class="overlay"><i class="fa fa-plus"></i></span><h3>Heat Pumps</h3>
                   </a>
                 </div>
               </article>
-              <article class="col-md-3 col-sm-6 portfolio-item maintenance heating">
+              <article class="col-md-3 col-sm-6 col-xs-12 portfolio-item maintenance heating">
                 <div class="entry-thumbnail">
                   <a href="#" class="hover-effect" data-toggle="modal" data-target="#project-modal">
                     <img src="http://placehold.it/400x300" alt="" />
-                    <span class="overlay"><i class="fa fa-plus"></i></span>
+                    <span class="overlay"><i class="fa fa-plus"></i></span><h3>Gas Furnaces</h3>
                   </a>
                 </div>
               </article>
-              <article class="col-md-3 col-sm-6 portfolio-item installs cooling">
+              <article class="col-md-3 col-sm-6 col-xs-12 portfolio-item installs cooling">
                 <div class="entry-thumbnail">
                   <a href="#" class="hover-effect" data-toggle="modal" data-target="#project-modal">
                     <img src="http://placehold.it/400x300" alt="" />
-                    <span class="overlay"><i class="fa fa-plus"></i></span>
+                    <span class="overlay"><i class="fa fa-plus"></i></span><h3>Air Conditioners</h3>
                   </a>
                 </div>
               </article>
-              <article class="col-md-3 col-sm-6 portfolio-item repairs heating">
+              <article class="col-md-3 col-sm-6 col-xs-12 portfolio-item repairs heating">
                 <div class="entry-thumbnail">
                   <a href="#" class="hover-effect" data-toggle="modal" data-target="#project-modal">
                     <img src="http://placehold.it/400x300" alt="" />
-                    <span class="overlay"><i class="fa fa-plus"></i></span>
+                    <span class="overlay"><i class="fa fa-plus"></i></span><h3>Service Calls</h3>
                   </a>
                 </div>
               </article>
-              <article class="col-md-3 col-sm-6 portfolio-item maintenance cooling">
+              <article class="col-md-3 col-sm-6 col-xs-12 portfolio-item maintenance cooling">
                 <div class="entry-thumbnail">
                   <a href="#" class="hover-effect" data-toggle="modal" data-target="#project-modal">
                     <img src="http://placehold.it/400x300" alt="" />
-                    <span class="overlay"><i class="fa fa-plus"></i></span>
+                    <span class="overlay"><i class="fa fa-plus"></i></span><h3>New Installs</h3>
                   </a>
                 </div>
               </article>
-              <article class="col-md-3 col-sm-6 portfolio-item repairs installs heating">
+              <article class="col-md-3 col-sm-6 col-xs-12 portfolio-item repairs installs heating">
                 <div class="entry-thumbnail">
                   <a href="#" class="hover-effect" data-toggle="modal" data-target="#project-modal">
                     <img src="http://placehold.it/400x300" alt="" />
-                    <span class="overlay"><i class="fa fa-plus"></i></span>
+                    <span class="overlay"><i class="fa fa-plus"></i></span><h3>Water Heaters</h3>
                   </a>
                 </div>
               </article>
-              <article class="col-md-3 col-sm-6 portfolio-item installs repairs maintenance cooling">
+              <article class="col-md-3 col-sm-6 col-xs-12 portfolio-item installs repairs maintenance cooling">
                 <div class="entry-thumbnail">
                   <a href="#" class="hover-effect" data-toggle="modal" data-target="#project-modal">
                     <img src="http://placehold.it/400x300" alt="" />
-                    <span class="overlay"><i class="fa fa-plus"></i></span>
+                    <span class="overlay"><i class="fa fa-plus"></i></span><h3>Seasonal Maintenance</h3>
                   </a>
                 </div>
               </article>
@@ -362,7 +420,8 @@
             </div>
 
           </div>
-        </div>        
+        </div>   
+             
         
 
         <section id="testimonials" class="section section-center section-hilite section-testimonial">
@@ -453,6 +512,7 @@
             </div>
           </div>
         </section>
+               
         
       </main>
 
