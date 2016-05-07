@@ -115,6 +115,7 @@
         $lightbox.find('img').attr('src', src);
         $lightbox.find('img').attr('alt', alt);
         $lightbox.find('img').css(css);
+        
     });
     
     $lightbox.on('shown.bs.modal', function (e) {

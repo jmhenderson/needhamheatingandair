@@ -1,6 +1,13 @@
 
 .headerIMG {padding-top: 40px;padding-bottom: 10px}
 
+.phone {fill: #388dc5}
+.contactCall a {color:white}
+.contactCall a:hover {color: #388dc5}
+.contactCall a:active {color: #388dc5}
+
+
+
 #lightbox .modal-content {
     display: inline-block;
     text-align: center;   
@@ -9400,6 +9407,8 @@ img {
         margin: 20px 0 0
     }
 }
+
+.section-contact {background-color: #333}
 
 .section.section-contact form {
     margin-top: 30px
