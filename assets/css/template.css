@@ -1,10 +1,10 @@
 
 .headerIMG {padding-top: 40px;padding-bottom: 10px}
 
-.phone {fill: #388dc5}
+.phone {fill: #666}
 .contactCall a {color:white}
-.contactCall a:hover {color: #388dc5}
-.contactCall a:active {color: #388dc5}
+.contactCall a:hover {color: #666}
+.contactCall a:active {color: #666}
 .findUsImg {}
 
 
@@ -9408,7 +9408,7 @@ img {
     }
 }
 
-.section-contact {background-color: #333}
+.section-contact {background-color: #388dc5}}
 
 .section.section-contact form {
     margin-top: 30px
